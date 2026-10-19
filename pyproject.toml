@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vehicular-agent-infra"
+version = "0.1.0"
+description = "Vehicular knowledge and tool agent with LangGraph"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Yi Qin"}]
+dependencies = ["fastapi==0.141.1", "pydantic==2.13.5", "httpx==0.28.1", "uvicorn==0.53.0", "langgraph==1.2.16", "numpy==2.2.6"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "build==1.6.1"]
+semantic = ["sentence-transformers>=3,<6"]
+
+[project.scripts]
+vai = "vai.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vai = ["data/*.md", "data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

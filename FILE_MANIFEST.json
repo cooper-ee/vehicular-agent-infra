@@ -1,0 +1,260 @@
+{
+  "scope": "archive snapshot bytes; Git line-ending normalization may alter hashes",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sha256": "75f95d991293abe89d55304489795626a08c616eaf6d153903c1409c4b2bd0be",
+      "bytes": 56
+    },
+    {
+      "path": ".env.example",
+      "sha256": "d92d57b589d5fcdb330f18022b3eaf2f5bd1bf5e93241551fa9313a68ba277c1",
+      "bytes": 297
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "286a5e4dfc725ecf564562af4e1b8306eb30da5f07b06817c2ae538c855dbac2",
+      "bytes": 72
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "b44ea095975ef0b4f544871f1d51683b33b564a200cff1059728d39711266ee9",
+      "bytes": 436
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b587fb03d039f195cb939b4131b3fdb2bff19b64457f561367a62513e1a82ea3",
+      "bytes": 181
+    },
+    {
+      "path": "compose.yaml",
+      "sha256": "976fcb3ea3dada938a4e0f521ffbc1531d08211ab7332a3db1fccec716584ce3",
+      "bytes": 190
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "a742840bf54ead3c08dc3bd018abe3eb43b54c6914d11fbfa81c58205ee92d63",
+      "bytes": 481
+    },
+    {
+      "path": "deploy/serve_vllm.sh",
+      "sha256": "35f4b1f51c00be69133d6a5af0b031a8745581741a686442cd5c0ef1cf0f874d",
+      "bytes": 499
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "8d14518ff661f1e4f7a593621cbe2e54f8f122d3cb921cee6055d2690d00fd74",
+      "bytes": 241
+    },
+    {
+      "path": "docs/API.md",
+      "sha256": "9b9d006c249aaf5a8f452e6b06a01071830769812b1cda4e01e4373b2d705bfb",
+      "bytes": 1434
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "c2586ef1efd94c0ecf65067e8480013b477033b70077c6ddcaa8182df588c46c",
+      "bytes": 3264
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "sha256": "4ad9ca26b5773b531e23d88b7593cdb9060fb7140bd5a1717920c0f390bf156e",
+      "bytes": 2478
+    },
+    {
+      "path": "docs/EVALUATION.md",
+      "sha256": "bb8cf4877aadade054a93b9f8fc39d11e930cc613d99535a9819691cff382d83",
+      "bytes": 1996
+    },
+    {
+      "path": "docs/EVIDENCE.md",
+      "sha256": "fccf4f2fd21cdd2391b12d7288390f9b1255a269263802af3181e13361a5f329",
+      "bytes": 2031
+    },
+    {
+      "path": "docs/GITHUB_IMPORT.md",
+      "sha256": "a569969831561b661d55575647d64e86ef0646f2df1ce8bc7d699b4e02ef75ed",
+      "bytes": 879
+    },
+    {
+      "path": "docs/upstream-snapshot.json",
+      "sha256": "9e20a545ec1c91641288b20e7599d979de2b06f374363449642c10bc75f9b4dd",
+      "bytes": 4359
+    },
+    {
+      "path": "evidence/benchmark/gpu.csv",
+      "sha256": "9581f9c7f43900f5cf415442534d052653996dbbd2d27ccb55cb89b068e34de6",
+      "bytes": 89
+    },
+    {
+      "path": "evidence/benchmark/requests.csv",
+      "sha256": "53c289c342cbe0ac92a5087c3435118c6fb0d37df8abdba8df238028316c6293",
+      "bytes": 624
+    },
+    {
+      "path": "evidence/benchmark/summary.json",
+      "sha256": "c0e55c552ee1d04127b1e848c29e4039014859e03e225b7f2a1038d384bd7fde",
+      "bytes": 789
+    },
+    {
+      "path": "evidence/check-00.log",
+      "sha256": "850e523bbfbdbad9b0099cd16ed595f323320fb0e43cd77ec9db81b0739ae9ab",
+      "bytes": 618
+    },
+    {
+      "path": "evidence/check-01.log",
+      "sha256": "b7709fcd7316e102c3e0ed68ca4b94e7c5e7fa03b34d827db1367d5729cd3d3c",
+      "bytes": 2476
+    },
+    {
+      "path": "evidence/check-02.log",
+      "sha256": "023d1881e19686eddf43810981007f33e0838bb77335808a25883d8e954bdd43",
+      "bytes": 790
+    },
+    {
+      "path": "evidence/mock-agent/gpu.csv",
+      "sha256": "b05622d4a47b80a3768011798b92a7746c480f247724dfa7e5d336dd66cd41b8",
+      "bytes": 89
+    },
+    {
+      "path": "evidence/mock-agent/requests.csv",
+      "sha256": "37dac06a14d71b78db5e2f9c75d0356537fec3336299a4f1a076d136cbb7f834",
+      "bytes": 1158
+    },
+    {
+      "path": "evidence/mock-agent/summary.json",
+      "sha256": "73df21b0c19f429f297b735a9d35354ad92d8e7fd86c345eafdf47577fa98463",
+      "bytes": 791
+    },
+    {
+      "path": "evidence/mock-stream/gpu.csv",
+      "sha256": "a64acdc25c8e58bef59d16683fe350554f96bee7671a00201958dabddec6f789",
+      "bytes": 89
+    },
+    {
+      "path": "evidence/mock-stream/requests.csv",
+      "sha256": "a158b692ea263da7b6cdd7038c1a8c6ff0c3efb43dd6e555a7166a029e95a3b0",
+      "bytes": 962
+    },
+    {
+      "path": "evidence/mock-stream/summary.json",
+      "sha256": "927738b3a78d575bc4b9f26a1fca5df2b43723b2db397d284a102046559c9061",
+      "bytes": 818
+    },
+    {
+      "path": "evidence/VERIFICATION.json",
+      "sha256": "112158bf5c23ee3cac8a6fde5209d0547efa49258e83853d19ede419a9923016",
+      "bytes": 1206
+    },
+    {
+      "path": "evidence/wheel-build.log",
+      "sha256": "c17db804dec5366206c5075023675d10fc7ec39026cc432972718ff64404bb1a",
+      "bytes": 4146
+    },
+    {
+      "path": "examples/client.py",
+      "sha256": "719f61a0c55aa7d358f59c52d95ef3e4f356992d2c34a1108ff974272ef364e9",
+      "bytes": 514
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "2f33b24ec5fcc6d847bdcd852e2370f5a4e2e896cf85c5a78054e69d7f81fc55",
+      "bytes": 1063
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "49304fe06c0d38c79cfcbbd38fb60b25dfe90b3f4acf495b977bdbd740538ac3",
+      "bytes": 800
+    },
+    {
+      "path": "README.md",
+      "sha256": "ceea94bf33c983a7cf9a4e397f471811e667e3d9ed4827fa72ecb5dfea3416f0",
+      "bytes": 4789
+    },
+    {
+      "path": "requirements.lock.txt",
+      "sha256": "5ed2b0d70819a25636a4c21063ca2a433cdd61cc692f707f44c0e78599f204f6",
+      "bytes": 1260
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "9d6d2c2e18451cd8eb86a739cbcb1664e4342ef4ae478266a3c333dd4f73674a",
+      "bytes": 10
+    },
+    {
+      "path": "scripts/verify.py",
+      "sha256": "b48a5b880d23fd7607810eb13cb02a3c52280d1da928ae067b36e460e5e6c79f",
+      "bytes": 3586
+    },
+    {
+      "path": "src/vai/__init__.py",
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "bytes": 22
+    },
+    {
+      "path": "src/vai/api.py",
+      "sha256": "8ad171dfb089650f04602468b198e40ef94d68f8a8bedecf5550b9abf279c339",
+      "bytes": 2798
+    },
+    {
+      "path": "src/vai/backend.py",
+      "sha256": "ed939382956df11d1bb69b0f3a62497e8ab309e1fca3a21798bd19bc7e5ce8e1",
+      "bytes": 4169
+    },
+    {
+      "path": "src/vai/cli.py",
+      "sha256": "5ab162f537c403580a66efab3bcaf5b022bddb5af4b16f27d9e902c273f8cb0e",
+      "bytes": 7228
+    },
+    {
+      "path": "src/vai/config.py",
+      "sha256": "62b32a85eca1dae11a86c40ad3331afe9e3210209cc66bbfecff70d05a522a1c",
+      "bytes": 1676
+    },
+    {
+      "path": "src/vai/data/evaluation.md",
+      "sha256": "77c3a53581b9719fcb564dae669c649b8608876d864ee6aa72d268fe90685d75",
+      "bytes": 747
+    },
+    {
+      "path": "src/vai/data/offloading.md",
+      "sha256": "2d1f8cfa4e01225a1e361a3476e09620be8f6cd3117c1c0cb16257ac032679c8",
+      "bytes": 866
+    },
+    {
+      "path": "src/vai/graph.py",
+      "sha256": "fed5a5f055717a233e1c04bfbc072abed41b49710d7fde6d36cb0199c95e1444",
+      "bytes": 1832
+    },
+    {
+      "path": "src/vai/retrieval.py",
+      "sha256": "d96e52e763ad0791ee706bc092feb00b718628f76ecf72618b79582a4266da39",
+      "bytes": 2489
+    },
+    {
+      "path": "src/vai/service.py",
+      "sha256": "b72973a3e40e8b0272cc3d7379ad7b7b4dc77caa1c675a3fb67ad82e838e99a1",
+      "bytes": 4896
+    },
+    {
+      "path": "src/vai/store.py",
+      "sha256": "fdc861e5b7e1525a1790744d97d328d7fb2072b2037ef7f7cf7ba2f2a13a6ffb",
+      "bytes": 2117
+    },
+    {
+      "path": "src/vai/tools.py",
+      "sha256": "9316749060590c51b7f3b5857b0d538a383347094d7294900180e57d3a67c501",
+      "bytes": 2293
+    },
+    {
+      "path": "tests/test_agent.py",
+      "sha256": "014a3c1c044c417844a1a71204cf10e37671d84bde89f577f753f2dca891d89f",
+      "bytes": 4805
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "02bc8bc3ba343adf1ea92530f285ed9cb0fcc5cf2640e5ccc5929bcf386e1c06",
+      "bytes": 1610
+    }
+  ]
+}

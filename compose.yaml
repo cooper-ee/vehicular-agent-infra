@@ -1,0 +1,9 @@
+services:
+  agent:
+    build: .
+    ports: ["127.0.0.1:8000:8000"]
+    environment:
+      BACKEND: mock
+      DATABASE: /app/runtime/agent.sqlite
+    volumes:
+      - ./runtime:/app/runtime
