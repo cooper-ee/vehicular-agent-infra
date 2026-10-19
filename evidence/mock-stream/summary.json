@@ -1,0 +1,22 @@
+{
+  "backend": "mock",
+  "model": "local-model",
+  "mode": "model-stream",
+  "requests": 12,
+  "concurrency": 2,
+  "prompt_characters": 20,
+  "prompt": "解释车辆任务卸载中的队列时延和负载均衡。",
+  "success_rate": 1.0,
+  "wall_s": 0.0009055999998963671,
+  "successful_requests_per_s": 13250.883393742522,
+  "latency_p50_ms": 0.027450000743556302,
+  "latency_p95_ms": 0.1329550008449587,
+  "ttft_p95_ms": 0.1084800012904452,
+  "completion_tokens_per_s": null,
+  "tool_success_rate": null,
+  "python": "3.10.20",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "gpu_total_memory_peak_mb_sampled": 1328.0,
+  "gpu_sample_scope": "total device memory; includes unrelated processes; sampled peak can miss brief spikes",
+  "interpretation": "mock results measure protocol overhead only; not LLM throughput"
+}

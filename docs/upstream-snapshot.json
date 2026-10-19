@@ -1,0 +1,110 @@
+{
+  "checked_date": "2026-10-19",
+  "repositories": [
+    {
+      "repository": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/langchain-ai/langgraph/98043c37abc60374030f960a03a6e0d4c0112643/README.md",
+          "sha256": "3a13e257af1216962d53d72414a7f44ac1fc5cea34d994bdff60ea2a3b045933",
+          "bytes": 6395,
+          "status": "retrieved"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/langchain-ai/langgraph/98043c37abc60374030f960a03a6e0d4c0112643/LICENSE",
+          "sha256": "d9bb52f2e3540d60ff50d8f0f5b6ba649b7fd346948c4c3d086c8afb120763c7",
+          "bytes": 1072,
+          "status": "retrieved"
+        },
+        {
+          "path": "libs/langgraph/langgraph/graph/state.py",
+          "url": "https://raw.githubusercontent.com/langchain-ai/langgraph/98043c37abc60374030f960a03a6e0d4c0112643/libs/langgraph/langgraph/graph/state.py",
+          "sha256": "d8c8021a93a8fc895d62335a9482e50d51353343bf885901e6487611dcd0d212",
+          "bytes": 76310,
+          "status": "retrieved"
+        }
+      ],
+      "commit": "98043c37abc60374030f960a03a6e0d4c0112643",
+      "default_branch": "main",
+      "license": "MIT"
+    },
+    {
+      "repository": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/vllm-project/vllm/fc47cc8fff8282b7fa2b257468b8595f91a1a741/README.md",
+          "sha256": "4dc7399323b9660117f8cc1226afb7a81cdbb912dbb4ae74b66d89052417d11c",
+          "bytes": 5772,
+          "status": "retrieved"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/vllm-project/vllm/fc47cc8fff8282b7fa2b257468b8595f91a1a741/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "status": "retrieved"
+        },
+        {
+          "path": "docs/serving/openai_compatible_server.md",
+          "url": "https://raw.githubusercontent.com/vllm-project/vllm/fc47cc8fff8282b7fa2b257468b8595f91a1a741/docs/serving/openai_compatible_server.md",
+          "status": "unavailable",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "commit": "fc47cc8fff8282b7fa2b257468b8595f91a1a741",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    },
+    {
+      "repository": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/langchain-ai/langchain/4fe944a581895ab47b0f56e204829594d5ba74a8/README.md",
+          "sha256": "9e6d706b38215c6979ef398ba72181b0f9099b8150f317c4c221877456c2dc2e",
+          "bytes": 5935,
+          "status": "retrieved"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/langchain-ai/langchain/4fe944a581895ab47b0f56e204829594d5ba74a8/LICENSE",
+          "sha256": "4ec67e4ca6e6721dba849b2ca82261597c86a61ee214bbf21416006b7b2d0478",
+          "bytes": 1067,
+          "status": "retrieved"
+        }
+      ],
+      "commit": "4fe944a581895ab47b0f56e204829594d5ba74a8",
+      "default_branch": "master",
+      "license": "MIT"
+    },
+    {
+      "repository": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/infiniflow/ragflow/b811e5bf67342b15d17030537dc893296519ade0/README.md",
+          "sha256": "a732162653165a1b588ca7a24d0645e8a1050436c4910fe95ca9da1e9607b118",
+          "bytes": 17281,
+          "status": "retrieved"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/infiniflow/ragflow/b811e5bf67342b15d17030537dc893296519ade0/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "status": "retrieved"
+        }
+      ],
+      "commit": "b811e5bf67342b15d17030537dc893296519ade0",
+      "default_branch": "main",
+      "license": "Apache-2.0"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "checked_date": "2026-10-19",
+  "project": "vehicular-agent-infra",
+  "status": "passed",
+  "tests_passed": 7,
+  "python": "3.10.20",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "dependencies": {
+    "fastapi": "0.141.1",
+    "pydantic": "2.13.5",
+    "httpx": "0.28.1",
+    "pytest": "9.1.1",
+    "langgraph": "1.2.16",
+    "numpy": "2.2.6"
+  },
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-ra"
+      ],
+      "exit_code": 0,
+      "log": "check-00.log"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "vai.cli",
+        "demo"
+      ],
+      "exit_code": 0,
+      "log": "check-01.log"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "vai.cli",
+        "benchmark",
+        "--requests",
+        "12",
+        "--output",
+        "<output>\\benchmark"
+      ],
+      "exit_code": 0,
+      "log": "check-02.log"
+    }
+  ],
+  "not_executed": [
+    "GitHub Actions",
+    "Docker build",
+    "Jetson/Raspberry Pi device inference",
+    "vLLM/VLM neural inference"
+  ],
+  "notes": "CPU/offline and protocol verification only; see separate raw simulator and HTTP evidence",
+  "wheel_build": "passed"
+}

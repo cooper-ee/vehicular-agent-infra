@@ -1,0 +1,80 @@
+running egg_info
+writing src\vehicular_agent_infra.egg-info\PKG-INFO
+writing dependency_links to src\vehicular_agent_infra.egg-info\dependency_links.txt
+writing entry points to src\vehicular_agent_infra.egg-info\entry_points.txt
+writing requirements to src\vehicular_agent_infra.egg-info\requires.txt
+writing top-level names to src\vehicular_agent_infra.egg-info\top_level.txt
+reading manifest file 'src\vehicular_agent_infra.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\vehicular_agent_infra.egg-info\SOURCES.txt'
+running bdist_wheel
+running build
+running build_py
+copying src\vai\api.py -> build\lib\vai
+copying src\vai\backend.py -> build\lib\vai
+copying src\vai\cli.py -> build\lib\vai
+copying src\vai\config.py -> build\lib\vai
+copying src\vai\graph.py -> build\lib\vai
+copying src\vai\retrieval.py -> build\lib\vai
+copying src\vai\service.py -> build\lib\vai
+copying src\vai\store.py -> build\lib\vai
+copying src\vai\tools.py -> build\lib\vai
+copying src\vai\__init__.py -> build\lib\vai
+running egg_info
+writing src\vehicular_agent_infra.egg-info\PKG-INFO
+writing dependency_links to src\vehicular_agent_infra.egg-info\dependency_links.txt
+writing entry points to src\vehicular_agent_infra.egg-info\entry_points.txt
+writing requirements to src\vehicular_agent_infra.egg-info\requires.txt
+writing top-level names to src\vehicular_agent_infra.egg-info\top_level.txt
+reading manifest file 'src\vehicular_agent_infra.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\vehicular_agent_infra.egg-info\SOURCES.txt'
+copying src\vai\data\evaluation.md -> build\lib\vai\data
+copying src\vai\data\offloading.md -> build\lib\vai\data
+copying src\vai\data\evaluation.md -> build\lib\vai\data
+copying src\vai\data\offloading.md -> build\lib\vai\data
+installing to build\bdist.win-amd64\wheel
+running install
+running install_lib
+creating build\bdist.win-amd64\wheel
+creating build\bdist.win-amd64\wheel\vai
+copying build\lib\vai\api.py -> build\bdist.win-amd64\wheel\.\vai
+copying build\lib\vai\backend.py -> build\bdist.win-amd64\wheel\.\vai
+copying build\lib\vai\cli.py -> build\bdist.win-amd64\wheel\.\vai
+copying build\lib\vai\config.py -> build\bdist.win-amd64\wheel\.\vai
+creating build\bdist.win-amd64\wheel\vai\data
+copying build\lib\vai\data\evaluation.md -> build\bdist.win-amd64\wheel\.\vai\data
+copying build\lib\vai\data\offloading.md -> build\bdist.win-amd64\wheel\.\vai\data
+copying build\lib\vai\graph.py -> build\bdist.win-amd64\wheel\.\vai
+copying build\lib\vai\retrieval.py -> build\bdist.win-amd64\wheel\.\vai
+copying build\lib\vai\service.py -> build\bdist.win-amd64\wheel\.\vai
+copying build\lib\vai\store.py -> build\bdist.win-amd64\wheel\.\vai
+copying build\lib\vai\tools.py -> build\bdist.win-amd64\wheel\.\vai
+copying build\lib\vai\__init__.py -> build\bdist.win-amd64\wheel\.\vai
+running install_egg_info
+Copying src\vehicular_agent_infra.egg-info to build\bdist.win-amd64\wheel\.\vehicular_agent_infra-0.1.0-py3.10.egg-info
+running install_scripts
+creating build\bdist.win-amd64\wheel\vehicular_agent_infra-0.1.0.dist-info\WHEEL
+creating 'D:\\2003Qinyi\\personalResume\\outputs\\github-projects-20261019\\vehicular-agent-infra\\artifacts\\wheels\\.tmp-83u6arwa\\vehicular_agent_infra-0.1.0-py3-none-any.whl' and adding 'build\\bdist.win-amd64\\wheel' to it
+adding 'vai/__init__.py'
+adding 'vai/api.py'
+adding 'vai/backend.py'
+adding 'vai/cli.py'
+adding 'vai/config.py'
+adding 'vai/graph.py'
+adding 'vai/retrieval.py'
+adding 'vai/service.py'
+adding 'vai/store.py'
+adding 'vai/tools.py'
+adding 'vai/data/evaluation.md'
+adding 'vai/data/offloading.md'
+adding 'vehicular_agent_infra-0.1.0.dist-info/licenses/LICENSE'
+adding 'vehicular_agent_infra-0.1.0.dist-info/METADATA'
+adding 'vehicular_agent_infra-0.1.0.dist-info/WHEEL'
+adding 'vehicular_agent_infra-0.1.0.dist-info/entry_points.txt'
+adding 'vehicular_agent_infra-0.1.0.dist-info/top_level.txt'
+adding 'vehicular_agent_infra-0.1.0.dist-info/RECORD'
+removing build\bdist.win-amd64\wheel
+Successfully built vehicular_agent_infra-0.1.0-py3-none-any.whl
+* Getting build dependencies for wheel...
+* Building wheel...

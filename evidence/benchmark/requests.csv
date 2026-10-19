@@ -1,0 +1,13 @@
+index,mode,backend,success,duration_ms,ttft_ms,completion_tokens,tool_calls,tool_failures,error
+0,agent,mock,True,19.80109999931301,,,1,0,
+1,agent,mock,True,19.76199999990058,,,1,0,
+2,agent,mock,True,30.748499999390333,,,1,0,
+3,agent,mock,True,30.746000000362983,,,1,0,
+4,agent,mock,True,23.390700000163633,,,1,0,
+5,agent,mock,True,23.378899999443092,,,1,0,
+6,agent,mock,True,18.795699999827775,,,1,0,
+7,agent,mock,True,18.846699998903205,,,1,0,
+8,agent,mock,True,22.969999999986612,,,1,0,
+9,agent,mock,True,22.944599999391357,,,1,0,
+10,agent,mock,True,22.945200000322075,,,1,0,
+11,agent,mock,True,16.562599999815575,,,1,0,

@@ -1,0 +1,27 @@
+{
+  "request_id": "54aee78f-e279-4a5f-843c-8cde7ae88369",
+  "session_id": "demo-98dde7cd-12c3-401a-8550-600d88b71365",
+  "answer": "[MOCK/协议演示] 工具执行结果：{\"ok\": true, \"matches\": [{\"source\": \"offloading.md\", \"offset\": 0, \"text\": \"# 车路协同卸载实验说明\\n\\n本文件是本仓库自建的演示知识库，不是交通法规或实测报告。\\n\\n任务卸载应同时考察上传时延、排队等待、服务时间与结果回传。输入数据以 MB 计、带宽以 Mbps 计时，上传时间毫秒数为 1000 × 8 × input_mb / bandwidth_mbps。MB 在这里采用十进制定义。\\n\\n只选最快 GPU 可能导致队列拥塞。预计完成时间应考虑当前排队工作量、任务类型兼容性、节点内存以及模型是否驻留。负载均衡不能仅比较不同硬件的任务数量，需同时看归一化工作量和时限违约率。\\n\\n不可行任务应拒绝或转发到可服务节点，不能把无法部署视觉语言模型的 Nano 当作通用大模型节点。这个实验助手只提供资料检索和估算，不会控制车辆或自动执行真实任务卸载。\\n\", \"score\": 0.33929}, {\"source\": \"evaluation.md\", \"offset\": 0, \"text\": \"# 推理服务评估约定\\n\\nTTFT 是从客户端发起请求到收到第一个非空文本增量的时间。工具调用的首个 JSON、SSE accepted 事件或空 content 不作为首个文本 token。网络分块可能包含多个 token，因此不根据 SSE 事件数量推断 token 数。\\n\\nP95 对成功请求端到端时延计算，同时独立报告错误率。超时请求保留在原始 CSV，不能直接删除后只宣称系统延迟低。吞吐量应说明请求数/秒还是输出 token 数/秒，后一项依赖后端 usage 计数。\\n\\n并发、输入长度、输出上限、模型、量化、KV cache、硬件与后端版本需一起保存。离线 mock 只验证编排与协议，不证明 vLLM 连续批处理或 GPU 性能收益。\\n\", \"score\": 0.011877}]}",
+  "backend": "mock",
+  "cache_hit": false,
+  "replayed": false,
+  "exhausted": false,
+  "queue_ms": 2.804799998557428,
+  "duration_ms": 7.402799999908893,
+  "trace": [
+    {
+      "node": "model",
+      "duration_ms": 0.01230000088980887
+    },
+    {
+      "node": "tool",
+      "name": "search_knowledge",
+      "ok": true,
+      "duration_ms": 0.14569999984814785
+    },
+    {
+      "node": "model",
+      "duration_ms": 0.0029000002541579306
+    }
+  ]
+}
